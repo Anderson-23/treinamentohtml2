@@ -1,0 +1,158 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --largura-vw:40vw;
+    --altura-vh:30vh;
+    --paddin-submenu:5px;
+}
+html{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo{
+
+    margin: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-size: 13px;
+
+}
+
+/* hovers */
+
+.menu ul li:hover ul{
+    width: var(--largura-vw);;
+    height: var(--altura-vh);
+    background-color: blue;
+    border-radius: 0 0 25px 0;
+}
+.menu ul li:hover ul a{
+   font-size: larger;
+}
+/* fim hovers */
+
+.menu ul{
+
+    display: flex;
+    gap: 25px;
+    }
+
+.menu ul li{
+
+    position: relative;
+    padding: 5px;
+
+}
+
+.menu ul li ul{
+    
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    transition: all 800ms;
+    width: 0;
+    height: 0;
+    padding: var(--paddin-submenu);
+    border-radius: 0 0 0 0;
+
+}
+
+
+
+.menu  li{
+
+    display: flex;
+    list-style: none;
+  
+    }
+
+.submenu2 ul li a{
+    font-size: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.submenu2  li a{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* Estilização segundo menu */
+.menu2{
+
+    margin-top: 5px;
+    display: flex;
+    padding: 5px;
+    border: 2px solid rgb(113, 113, 116);
+    border-left: none;
+    border-right: none;
+    box-shadow: 0px -0.5px 3px black;
+
+}
+.submenu{
+
+    display: flex;
+    gap: 0.5rem;
+    padding: 5px;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    align-items: center;
+
+}
+.menu2 .submenu a{
+
+    width: 125px;
+    height: 70px;
+    padding: 5px;
+    background-color: #c0caca;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: transform 200ms,box-shadow 200ms;
+
+    &:hover{
+
+        background-color: #56caca; 
+        border: 1px solid blue;  
+        box-sizing: border-box; 
+        transform: translate(0%, 5%);
+        box-shadow: 2px -1px 10px black;
+        
+    }
+
+}
+.menu2 .submenu a img{
+    
+    width: 30px;
+
+}
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
