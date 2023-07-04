@@ -6,7 +6,7 @@
 }
 :root{
 
-    --largura-vw:40vw;
+    --largura-vw:20vw;
     --altura-vh:30vh;
     --paddin-submenu:5px;
 }
@@ -28,10 +28,21 @@ html{
 /* hovers */
 
 .menu ul li:hover ul{
-    width: var(--largura-vw);;
+    width: var(--largura-vw);
     height: var(--altura-vh);
-    background-color: blue;
-    border-radius: 0 0 25px 0;
+    background-color: #c0caca;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 5px 5px 25px black;
+    border: 1px solid blue;
+    border-top: 25% solid blue;    
+}
+
+
+.menu ul li:hover{
+
+    background-color: #c0caca;
+    box-shadow: 5px 5px 25px black;
+    border-bottom: none;
 }
 .menu ul li:hover ul a{
    font-size: larger;
@@ -53,14 +64,14 @@ html{
 
 .menu ul li ul{
     
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 100%;
     left: 0;
     overflow: hidden;
-    transition: all 800ms;
+    transition: all 500ms ease-out;
     width: 0;
     height: 0;
     padding: var(--paddin-submenu);
@@ -78,9 +89,10 @@ html{
     }
 
 .submenu2 ul li a{
+    transition: all 300ms;
     font-size: 0;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .submenu2  li a{
