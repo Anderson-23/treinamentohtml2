@@ -83,12 +83,13 @@ text-align: center;
 width: 100%;
 height: 35px;
 font-size: 14px;
-background-color: rgb(202, 202, 202);
+background-color: rgb(70, 73, 206);
 margin-top: -5px;
+color: WHITE;
 
 &:hover{
 
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(85, 82, 243);
     cursor: pointer;
 }
 
@@ -120,3 +121,4 @@ input{
         cursor: pointer;
     }
 }
+
