@@ -12,7 +12,7 @@ const form = document.querySelector("form")
 
 
 
-const formData = new FormData(form)
+
 
 btn.addEventListener("keypress", function(e){if(e.key === "Enter"){btn2.focus()}})
 btn2.addEventListener("keypress", function(e){if(e.key === "Enter"){btn3.focus()}})
@@ -51,9 +51,3 @@ btn10.addEventListener("keypress", function(e){
             }
     }})
 
-
-
-
-
-
-console.log(formData);
