@@ -11,29 +11,28 @@ body{
 }
 h1{
 
-margin: auto;
-width: 325px;
-text-align: center;
+    margin: auto;
+    width: 325px;
+    text-align: center;
 
 }
 .principal{
 
-background-color: white;
-width: 310px;
-margin: auto;
-display: flex;
-flex-direction: column;
-position: relative;
-border: 2px solid black;
-border-radius: 5px;
-padding: 5px;
+    background-color: white;
+    width: 310px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
 
 }
 .secundario{
 
     margin: auto;
     margin-bottom: 3px;
-
 
 }
 .texto{
@@ -57,56 +56,60 @@ p{
 
 .cppesq{
 
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .pesqesquerda{
 
-background-color: white;
-margin-bottom: 5px;
+    background-color: white;
+    margin-bottom: 5px;
   
 }
 .pesqdireita{
+
     margin-top: 5px;
     background-color: white;
 
 }
 label{
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-text-align: center;
-width: 100%;
-height: 35px;
-font-size: 14px;
-background-color: rgb(70, 73, 206);
-margin-top: -5px;
-color: WHITE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    background-color: rgb(70, 73, 206);
+    margin-top: -5px;
+    color: WHITE;
 
-&:hover{
+    &:hover{
 
-    background-color: rgb(85, 82, 243);
-    cursor: pointer;
-}
+        background-color: rgb(85, 82, 243);
+        cursor: pointer;
+    }
 
 }
 
 .pesq{
-display: flex;
-justify-content: space-around;
-align-items: center;
-width: 135px;
-height: 69px;
-border: 1px solid black;
-flex-direction: column;
-border-radius: 5px;
-overflow: hidden;
-box-shadow: 2px 2px 1px black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 135px;
+    height: 69px;
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 1px black;
+
 }
+
 input{
 
     display: flex;
@@ -119,11 +122,14 @@ input{
        
         background-color: rgb(212, 212, 212);
         cursor: pointer;
+
     }
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+  
+    -webkit-appearance: none;
+    margin: 0;
+
 }

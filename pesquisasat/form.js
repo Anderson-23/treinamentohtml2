@@ -114,7 +114,6 @@ else{
         window.alert("dados salvos")
         btn.focus();
         
-        
         }
         else{
         
