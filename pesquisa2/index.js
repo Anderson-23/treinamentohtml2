@@ -16,12 +16,26 @@ const isleft = rodarr.classList.contains("esquerda");
 
 if(isleft){
 
+currentItem -= 1;
 
+}else{
+
+currentItem += 1;
 
 }
 
+if(currentItem >= maxItem)
+{
+currentItem = 0;
 
-console.log("clicou",isleft);
+}
+if(currentItem < 0 )
+{
+currentItem = maxItem - 1;
+
+}
+
+container2.style.transform = $currentitem + "rotationY(25deg)"
 
 
 
