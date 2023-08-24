@@ -23,9 +23,6 @@ if(isleft){
 
 console.log("clicou",isleft);
 
-
-
-
 })
 
 } )
