@@ -114,13 +114,13 @@ border-radius: 15px;
 }
 main div.pesq h2{
 
-background-color: aqua;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 55px;
-margin-bottom: 50px;
-font-size: 16px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 50px;
+    font-size: 16px;
 
 }
 main div.containerb{
@@ -128,14 +128,8 @@ main div.containerb{
 display: flex;
 background-color: aqua;
 justify-content: space-around;
-opacity: 0.5;
+
 }
-main div.currentitem{
-
-
-opacity: 1;
-}
-
 
 
 main div.botao{
@@ -149,8 +143,8 @@ main div.botao{
 }
 main div.botao label{
 
-color: white;
-font-size: 15px;
+    color: white;
+    font-size: 15px;
 }
 
 
