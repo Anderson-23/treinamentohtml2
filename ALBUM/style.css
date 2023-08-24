@@ -28,8 +28,8 @@ html,body{
 .imgContainer{
    
     position: relative;
-    animation: animate 5s linear infinite;
-    width: 16vw;
+    animation: animate 5s linear infinite ;
+    width: 200px;
     height: 100%;
     transform-style: preserve-3d;
     transform-origin: center;
@@ -105,8 +105,6 @@ html,body{
 
     left: 50%;
     transform: rotatex(calc(var(--r) * 90deg)) translateZ(100px) translate(-50%, 0);
-
-
 
 }
 
