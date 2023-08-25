@@ -28,6 +28,7 @@ html,body{
 .imgContainer{
    
     position: relative;
+
     animation: animate 5s linear infinite;
     width: 200PX;
     height: 100%;
@@ -105,8 +106,6 @@ html,body{
 
     left: 50%;
     transform: rotatex(calc(var(--r) * 90deg)) translateZ(100px) translate(-50%, 0);
-
-
 
 }
 @media screen and (max-width: 830px)  {
